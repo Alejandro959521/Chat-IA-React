@@ -5,11 +5,11 @@ import  { AudioToTextPage, ImageGenerationPage, OrthographyPage, ProsConsPage, P
 
 export const menuRoutes = [
   {
-    to: "/orthography",
-    icon: "fa-solid fa-spell-check",
-    title: "Ortografía",
-    description: "Corregir ortografía",
-    component: <OrthographyPage />
+    to: "/image-generation",
+    icon: "fa-solid fa-image",
+    title: "Imágenes",
+    description: "Generar imágenes",
+    component: <ImageGenerationPage />
   },
   {
     to: "/pros-cons",
@@ -46,13 +46,14 @@ export const menuRoutes = [
     description: "Convertir audio a texto",
     component: <AudioToTextPage />
   },
+  
   {
-    to: "/image-generation",
-    icon: "fa-solid fa-image",
-    title: "Imágenes",
-    description: "Generar imágenes",
-    component: <ImageGenerationPage />
-  },
+    to: "/orthography",
+    icon: "fa-solid fa-spell-check",
+    title: "Ortografía",
+    description: "Corregir ortografía",
+    component: <OrthographyPage />
+  }
   // {
   //   to: "/image-tunning",
   //   icon: "fa-solid fa-wand-magic",
