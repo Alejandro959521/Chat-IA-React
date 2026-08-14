@@ -13,7 +13,7 @@ export const GptOrthographyMessage = ({ userScore, errors = [], message }: Props
                     G
                 </div>
                 <div className="relative ml-3 text-sm bg-black bg-opacity-25 pt-3 pb-2 px-4 shadow rounded-xl ">
-                    <p className="text-xl">Puntaje: {(userScore * 100).toFixed(1)}%</p>
+                    <p className="text-xl">Puntaje: {userScore}%</p>
                     <p>{message}</p>
 
                     {
