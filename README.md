@@ -19,7 +19,7 @@ Web interface for an AI-powered chat application, built with **React 19 + TypeSc
 
 ## Installation
 
-\`\`\`bash
+
 # Clone the repository
 git clone https://github.com/Alejandro959521/Chat-IA-React.git
 
@@ -31,7 +31,7 @@ npm install
 
 # Run in development mode
 npm run dev
-\`\`\`
+
 
 ## Available Scripts
 
