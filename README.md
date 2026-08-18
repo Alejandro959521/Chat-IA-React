@@ -2,6 +2,8 @@
 
 Web interface for an AI-powered chat application, built with **React 19 + TypeScript + Vite**. It consumes the API from the [Chat-IA-Nest](https://github.com/Alejandro959521/Chat-IA-Nest).
 
+**Demo en vivo:** [chat-ia-react.vercel.app](https://chat-ia-react.vercel.app)
+
 ## Features
 
 - Chat interface with Markdown response rendering (`react-markdown`)
@@ -13,9 +15,9 @@ Web interface for an AI-powered chat application, built with **React 19 + TypeSc
 
 - React 19
 - TypeScript
-- Vite
+- Vite 6
 - Tailwind CSS v4
-- React Router
+- React Router v7
 
 ## Installation
 
@@ -27,7 +29,7 @@ git clone https://github.com/Alejandro959521/Chat-IA-React.git
 npm install
 
 # Create a .env file with the backend URL
-# VITE_API_URL=http://localhost:3000
+# VITE_API_URL = URL del backend (Chat-IA-Nest) 
 
 # Run in development mode
 npm run dev
